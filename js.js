@@ -77,12 +77,6 @@ for(let i=0 ;i<SnakeParts.length;i++){
 if(gameOver){
     ctx.fillStyle="white";
     ctx.font="50px Verdana";
-
-    // var gradient =ctx.createLinearGradient(0,0,canvas.width,0);
-    // gradient.addColorStop("0", "magenta")
-    // gradient.addColorStop("0.5", "blue")
-    // gradient.addColorStop("1.0", "red")
-
    let gradient= ctx.fillText("Game Over" ,canvas.width/6.5 ,canvas.height/2)
 
    gradient.addColorStop("0","magenta");
@@ -112,9 +106,6 @@ function clearScreen(){
     
 
 }
-
-
-
 
 function drawSnake(){
     ctx.fillStyle ='orange'
